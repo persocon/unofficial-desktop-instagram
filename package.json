@@ -21,8 +21,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.js": [
-      "prettier --single-quote --trailing-comma es5 --tab-width 4 --write 'src/**/*.js'",
+    "app/**/*.js": [
+      "prettier --single-quote --trailing-comma es5 --tab-width 4 --write 'app/**/*.js'",
       "git add"
     ]
   },

@@ -1,8 +1,8 @@
 const electron = require('electron');
 // Module to control application life.
-const {app} = electron;
+const { app } = electron;
 // Module to create native browser window.
-const {BrowserWindow, session} = require('electron');
+const { BrowserWindow, session } = require('electron');
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -10,10 +10,10 @@ let win;
 
 function createWindow() {
   // Create the browser window.
-  win = new BrowserWindow({width: 412, height: 732, fullscreenable: false});
+  win = new BrowserWindow({ width: 412, height: 732, fullscreenable: false });
 
   // and load the index.html of the app.
-  win.loadURL('https://www.instagram.com/', {userAgent: 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36'});
+  win.loadURL('https://www.instagram.com/', { userAgent: 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36' });
 
   // Open the DevTools.
   // win.webContents.openDevTools();
