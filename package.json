@@ -5,13 +5,13 @@
   "version": "0.0.1",
   "main": "main.js",
   "scripts": {
-    "pack": "npm run pack:osx && npm run pack:win",
+    "pack": "yarn pack:osx && yarn pack:win",
     "pack:osx": "build --mac",
     "pack:win": "build --win",
-    "dist": "npm run dist:osx && npm run dist:win",
-    "dist:osx": "npm run pack:osx",
-    "dist:win": "npm run pack:win",
-    "all": "npm run dist",
+    "dist": "yarn dist:osx && yarn dist:win",
+    "dist:osx": "yarn pack:osx",
+    "dist:win": "yarn pack:win",
+    "all": "yarn dist",
     "precommit": "lint-staged"
   },
   "build": {

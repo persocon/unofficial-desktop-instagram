@@ -3,6 +3,8 @@ node_modules
 dist/mac
 dist/win
 dist/win-unpacked
+dist/github
 dist/*.dmg
 dist/*.zip
 dist/*.exe
+dist/*.yml
