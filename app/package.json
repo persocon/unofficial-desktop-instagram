@@ -1,0 +1,7 @@
+{
+    "name": "UnofficialDesktopInstagram",
+    "description": "Unofficial Desktop app for instagram.",
+    "version": "0.0.1",
+    "author": "Pedro Costa Neves <costa.neves@me.com>",
+    "main": "main.js"
+}

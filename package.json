@@ -1,0 +1,36 @@
+{
+  "name": "desktop-instagram",
+  "productName": "UnofficialDesktopInstagram",
+  "author": "Pedro Costa Neves <costa.neves@me.com>",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "pack": "npm run pack:osx && npm run pack:win",
+    "pack:osx": "build --mac",
+    "pack:win": "build --win",
+    "dist": "npm run dist:osx && npm run dist:win",
+    "dist:osx": "npm run pack:osx",
+    "dist:win": "npm run pack:win",
+    "all": "npm run dist",
+    "precommit": "lint-staged"
+  },
+  "build": {
+    "appId": "persocon.unofficialdesktopinstagram",
+    "mac": {
+        "category": "public.app-category.game"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --single-quote --trailing-comma es5 --tab-width 4 --write 'src/**/*.js'",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "electron": "1.7.6",
+    "electron-builder": "19.31.1",
+    "electron-packager": "9.1.0",
+    "lint-staged": "4.2.3",
+    "prettier": "1.7.2"
+  }
+}

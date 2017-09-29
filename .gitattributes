@@ -1,0 +1,4 @@
+dist/DestinyWeekly-darwin-x64 filter=lfs diff=lfs merge=lfs -text
+dist/win filter=lfs diff=lfs merge=lfs -text
+dist/win-unpacked filter=lfs diff=lfs merge=lfs -text
+dist/ filter=lfs diff=lfs merge=lfs -text

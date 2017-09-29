@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+dist/mac
+dist/win
+dist/win-unpacked
+dist/*.dmg
+dist/*.zip
+dist/*.exe
