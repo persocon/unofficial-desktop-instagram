@@ -27,7 +27,7 @@
     ]
   },
   "devDependencies": {
-    "electron": "1.7.6",
+    "electron": "5.0.2",
     "electron-builder": "19.31.1",
     "electron-packager": "9.1.0",
     "lint-staged": "4.2.3",
