@@ -837,9 +837,9 @@ electron-publish@20.44.3:
     lazy-val "^1.0.4"
     mime "^2.4.4"
 
-electron@5.0.5:
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-5.0.5.tgz#2d04499064d3f6c89c4642e47cfe9ea151d794eb"
+electron@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-6.0.2.tgz#437f3ac2bcb42116d92a3f1084280e0b2cff1493"
   dependencies:
     "@types/node" "^10.12.18"
     electron-download "^4.1.0"
