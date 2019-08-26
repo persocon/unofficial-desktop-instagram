@@ -30,7 +30,7 @@
     "electron": "5.0.5",
     "electron-builder": "20.44.3",
     "electron-packager": "14.0.0",
-    "lint-staged": "8.2.1",
+    "lint-staged": "9.2.4",
     "prettier": "1.18.2"
   }
 }
